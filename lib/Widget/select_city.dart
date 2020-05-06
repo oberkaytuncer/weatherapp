@@ -31,7 +31,7 @@ class _SelectCityWidgetState extends State<SelectCityWidget> {
             ),
             IconButton(
               icon: Icon(Icons.search),
-              onPressed: () => Navigator.pop(context, _textController.text),
+              onPressed: () => Navigator.pop(context,  _textController.text  ),
             ),
           ],
         ),
